@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+}
+
+.nav h1 {
+    font-size: 25px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkContainer p {
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+    font-weight: bold;
+}
+
+.linkContainer p:hover {
+    cursor: pointer;
+}
+
+.linkContainer button {
+    padding: 0px 30px 0px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginLink {
+    padding-left: 50px;
+}
